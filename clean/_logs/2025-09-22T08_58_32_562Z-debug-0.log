@@ -1,0 +1,20 @@
+0 verbose cli /opt/homebrew/Cellar/node/24.3.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.6.0
+2 info using node@v24.3.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/muhammedshaikhzahidu/Desktop/new/cocopalms/ubs-backend/.npmrc
+5 silly config load:file:/Users/muhammedshaikhzahidu/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm view jsonwebtoken description dist-tags.latest homepage version time
+8 verbose argv "view" "--json" "--" "jsonwebtoken" "description" "dist-tags.latest" "homepage" "version" "time"
+9 verbose logfile logs-max:10 dir:/Users/muhammedshaikhzahidu/Desktop/new/cocopalms/ubs-backend/clean/_logs/2025-09-22T08_58_32_562Z-
+10 verbose logfile /Users/muhammedshaikhzahidu/Desktop/new/cocopalms/ubs-backend/clean/_logs/2025-09-22T08_58_32_562Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/jsonwebtoken 525ms (cache revalidated)
+14 verbose cwd /Users/muhammedshaikhzahidu/Desktop/new/cocopalms/ubs-backend
+15 verbose os Darwin 24.0.0
+16 verbose node v24.3.0
+17 verbose npm  v11.6.0
+18 verbose exit 0
+19 info ok
