@@ -1,12 +1,34 @@
 const express = require('express')
 const ConnectDb = require('./api/config/dbConnnection')
 const errorHandler = require('./api/middlewares/errorHandler')
+const cors = require('cors')
 require('dotenv').config()
 
 ConnectDb()
 const app = express()
 
 const port = process.env.PORT || 4000
+
+// Configure CORS for specific origins
+const allowedOrigins = [
+    'http://localhost:5175', // Example: your frontend development server
+    'https://your-production-frontend.com' // Example: your live site
+];
+
+const corsOptions = {
+    origin: function (origin, callback) {
+        // Check if the origin is in our allowed list
+        if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
+    credentials: true, // This is important if you're using cookies or sessions
+};
+
+// Use the cors middleware with the configured options
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
