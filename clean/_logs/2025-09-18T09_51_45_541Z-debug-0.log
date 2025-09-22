@@ -1,0 +1,234 @@
+0 verbose cli /opt/homebrew/Cellar/node/24.3.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.6.0
+2 info using node@v24.3.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/muhammedshaikhzahidu/Desktop/new/cocopalms/ubs-backend/.npmrc
+5 silly config load:file:/Users/muhammedshaikhzahidu/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm i cross-env
+8 verbose argv "i" "--save-dev" "cross-env"
+9 verbose logfile logs-max:10 dir:/Users/muhammedshaikhzahidu/Desktop/new/cocopalms/ubs-backend/clean/_logs/2025-09-18T09_51_45_541Z-
+10 verbose logfile /Users/muhammedshaikhzahidu/Desktop/new/cocopalms/ubs-backend/clean/_logs/2025-09-18T09_51_45_541Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest cross-env@*
+16 silly packumentCache full:https://registry.npmjs.org/cross-env cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/cross-env 449ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/cross-env set size:undefined disposed:false
+19 silly placeDep ROOT cross-env@10.0.0 OK for: ubs-backend@1.0.0 want: *
+20 silly fetch manifest @epic-web/invariant@^1.0.0
+21 silly packumentCache full:https://registry.npmjs.org/@epic-web%2finvariant cache-miss
+22 silly fetch manifest cross-spawn@^7.0.6
+23 silly packumentCache full:https://registry.npmjs.org/cross-spawn cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/cross-spawn 244ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/cross-spawn set size:undefined disposed:false
+26 http fetch GET 200 https://registry.npmjs.org/@epic-web%2finvariant 665ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/@epic-web%2finvariant set size:undefined disposed:false
+28 silly placeDep ROOT @epic-web/invariant@1.0.0 OK for: cross-env@10.0.0 want: ^1.0.0
+29 silly placeDep ROOT cross-spawn@7.0.6 OK for: cross-env@10.0.0 want: ^7.0.6
+30 silly fetch manifest which@^2.0.1
+31 silly packumentCache full:https://registry.npmjs.org/which cache-miss
+32 silly fetch manifest path-key@^3.1.0
+33 silly packumentCache full:https://registry.npmjs.org/path-key cache-miss
+34 silly fetch manifest shebang-command@^2.0.0
+35 silly packumentCache full:https://registry.npmjs.org/shebang-command cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/which 316ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/which set size:undefined disposed:false
+38 http fetch GET 200 https://registry.npmjs.org/path-key 476ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/path-key set size:undefined disposed:false
+40 http fetch GET 200 https://registry.npmjs.org/shebang-command 644ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/shebang-command set size:undefined disposed:false
+42 silly placeDep ROOT path-key@3.1.1 OK for: cross-spawn@7.0.6 want: ^3.1.0
+43 silly placeDep ROOT shebang-command@2.0.0 OK for: cross-spawn@7.0.6 want: ^2.0.0
+44 silly placeDep ROOT which@2.0.2 OK for: cross-spawn@7.0.6 want: ^2.0.1
+45 silly fetch manifest shebang-regex@^3.0.0
+46 silly packumentCache full:https://registry.npmjs.org/shebang-regex cache-miss
+47 silly fetch manifest isexe@^2.0.0
+48 silly packumentCache full:https://registry.npmjs.org/isexe cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/isexe 146ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/isexe set size:undefined disposed:false
+51 http fetch GET 200 https://registry.npmjs.org/shebang-regex 174ms (cache miss)
+52 silly packumentCache full:https://registry.npmjs.org/shebang-regex set size:undefined disposed:false
+53 silly placeDep ROOT shebang-regex@3.0.0 OK for: shebang-command@2.0.0 want: ^3.0.0
+54 silly placeDep ROOT isexe@2.0.0 OK for: which@2.0.2 want: ^2.0.0
+55 silly reify moves {}
+56 silly audit bulk request {
+56 silly audit   '@mongodb-js/saslprep': [ '1.3.0' ],
+56 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+56 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+56 silly audit   accepts: [ '2.0.0' ],
+56 silly audit   anymatch: [ '3.1.3' ],
+56 silly audit   'balanced-match': [ '1.0.2' ],
+56 silly audit   bcrypt: [ '6.0.0' ],
+56 silly audit   'binary-extensions': [ '2.3.0' ],
+56 silly audit   'body-parser': [ '2.2.0' ],
+56 silly audit   'brace-expansion': [ '1.1.12' ],
+56 silly audit   braces: [ '3.0.3' ],
+56 silly audit   bson: [ '6.10.4' ],
+56 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+56 silly audit   bytes: [ '3.1.2' ],
+56 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+56 silly audit   'call-bound': [ '1.0.4' ],
+56 silly audit   chokidar: [ '3.6.0' ],
+56 silly audit   'concat-map': [ '0.0.1' ],
+56 silly audit   'content-disposition': [ '1.0.0' ],
+56 silly audit   'content-type': [ '1.0.5' ],
+56 silly audit   cookie: [ '0.7.2' ],
+56 silly audit   'cookie-signature': [ '1.2.2' ],
+56 silly audit   debug: [ '4.4.3' ],
+56 silly audit   depd: [ '2.0.0' ],
+56 silly audit   dotenv: [ '17.2.2' ],
+56 silly audit   'dunder-proto': [ '1.0.1' ],
+56 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+56 silly audit   'ee-first': [ '1.1.1' ],
+56 silly audit   encodeurl: [ '2.0.0' ],
+56 silly audit   'es-define-property': [ '1.0.1' ],
+56 silly audit   'es-errors': [ '1.3.0' ],
+56 silly audit   'es-object-atoms': [ '1.1.1' ],
+56 silly audit   'escape-html': [ '1.0.3' ],
+56 silly audit   etag: [ '1.8.1' ],
+56 silly audit   express: [ '5.1.0' ],
+56 silly audit   'express-async-handler': [ '1.2.0' ],
+56 silly audit   'fill-range': [ '7.1.1' ],
+56 silly audit   finalhandler: [ '2.1.0' ],
+56 silly audit   forwarded: [ '0.2.0' ],
+56 silly audit   fresh: [ '2.0.0' ],
+56 silly audit   fsevents: [ '2.3.3' ],
+56 silly audit   'function-bind': [ '1.1.2' ],
+56 silly audit   'get-intrinsic': [ '1.3.0' ],
+56 silly audit   'get-proto': [ '1.0.1' ],
+56 silly audit   'glob-parent': [ '5.1.2' ],
+56 silly audit   gopd: [ '1.2.0' ],
+56 silly audit   'has-flag': [ '3.0.0' ],
+56 silly audit   'has-symbols': [ '1.1.0' ],
+56 silly audit   hasown: [ '2.0.2' ],
+56 silly audit   'http-errors': [ '2.0.0' ],
+56 silly audit   statuses: [ '2.0.1', '2.0.2' ],
+56 silly audit   'iconv-lite': [ '0.6.3', '0.7.0' ],
+56 silly audit   'ignore-by-default': [ '1.0.1' ],
+56 silly audit   inherits: [ '2.0.4' ],
+56 silly audit   'ipaddr.js': [ '1.9.1' ],
+56 silly audit   'is-binary-path': [ '2.1.0' ],
+56 silly audit   'is-extglob': [ '2.1.1' ],
+56 silly audit   'is-glob': [ '4.0.3' ],
+56 silly audit   'is-number': [ '7.0.0' ],
+56 silly audit   'is-promise': [ '4.0.0' ],
+56 silly audit   jsonwebtoken: [ '9.0.2' ],
+56 silly audit   jwa: [ '1.4.2' ],
+56 silly audit   jws: [ '3.2.2' ],
+56 silly audit   kareem: [ '2.6.3' ],
+56 silly audit   'lodash.includes': [ '4.3.0' ],
+56 silly audit   'lodash.isboolean': [ '3.0.3' ],
+56 silly audit   'lodash.isinteger': [ '4.0.4' ],
+56 silly audit   'lodash.isnumber': [ '3.0.3' ],
+56 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+56 silly audit   'lodash.isstring': [ '4.0.1' ],
+56 silly audit   'lodash.once': [ '4.1.1' ],
+56 silly audit   'math-intrinsics': [ '1.1.0' ],
+56 silly audit   'media-typer': [ '1.1.0' ],
+56 silly audit   'memory-pager': [ '1.5.0' ],
+56 silly audit   'merge-descriptors': [ '2.0.0' ],
+56 silly audit   'mime-db': [ '1.54.0' ],
+56 silly audit   'mime-types': [ '3.0.1' ],
+56 silly audit   minimatch: [ '3.1.2' ],
+56 silly audit   mongodb: [ '6.18.0' ],
+56 silly audit   'mongodb-connection-string-url': [ '3.0.2' ],
+56 silly audit   mongoose: [ '8.18.1' ],
+56 silly audit   mpath: [ '0.9.0' ],
+56 silly audit   mquery: [ '5.0.0' ],
+56 silly audit   ms: [ '2.1.3' ],
+56 silly audit   negotiator: [ '1.0.0' ],
+56 silly audit   'node-addon-api': [ '8.5.0' ],
+56 silly audit   'node-gyp-build': [ '4.8.4' ],
+56 silly audit   nodemon: [ '3.1.10' ],
+56 silly audit   'normalize-path': [ '3.0.0' ],
+56 silly audit   'object-inspect': [ '1.13.4' ],
+56 silly audit   'on-finished': [ '2.4.1' ],
+56 silly audit   once: [ '1.4.0' ],
+56 silly audit   parseurl: [ '1.3.3' ],
+56 silly audit   'path-to-regexp': [ '8.3.0' ],
+56 silly audit   picomatch: [ '2.3.1' ],
+56 silly audit   'proxy-addr': [ '2.0.7' ],
+56 silly audit   'pstree.remy': [ '1.1.8' ],
+56 silly audit   punycode: [ '2.3.1' ],
+56 silly audit   qs: [ '6.14.0' ],
+56 silly audit   'range-parser': [ '1.2.1' ],
+56 silly audit   'raw-body': [ '3.0.1' ],
+56 silly audit   readdirp: [ '3.6.0' ],
+56 silly audit   router: [ '2.2.0' ],
+56 silly audit   'safe-buffer': [ '5.2.1' ],
+56 silly audit   'safer-buffer': [ '2.1.2' ],
+56 silly audit   semver: [ '7.7.2' ],
+56 silly audit   send: [ '1.2.0' ],
+56 silly audit   'serve-static': [ '2.2.0' ],
+56 silly audit   setprototypeof: [ '1.2.0' ],
+56 silly audit   'side-channel': [ '1.1.0' ],
+56 silly audit   'side-channel-list': [ '1.0.0' ],
+56 silly audit   'side-channel-map': [ '1.0.1' ],
+56 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+56 silly audit   sift: [ '17.1.3' ],
+56 silly audit   'simple-update-notifier': [ '2.0.0' ],
+56 silly audit   'sparse-bitfield': [ '3.0.3' ],
+56 silly audit   'supports-color': [ '5.5.0' ],
+56 silly audit   'to-regex-range': [ '5.0.1' ],
+56 silly audit   toidentifier: [ '1.0.1' ],
+56 silly audit   touch: [ '3.1.1' ],
+56 silly audit   tr46: [ '5.1.1' ],
+56 silly audit   'type-is': [ '2.0.1' ],
+56 silly audit   undefsafe: [ '2.0.5' ],
+56 silly audit   unpipe: [ '1.0.0' ],
+56 silly audit   vary: [ '1.1.2' ],
+56 silly audit   'webidl-conversions': [ '7.0.0' ],
+56 silly audit   'whatwg-url': [ '14.2.0' ],
+56 silly audit   wrappy: [ '1.0.2' ],
+56 silly audit   'cross-env': [ '10.0.0' ],
+56 silly audit   '@epic-web/invariant': [ '1.0.0' ],
+56 silly audit   'cross-spawn': [ '7.0.6' ],
+56 silly audit   'path-key': [ '3.1.1' ],
+56 silly audit   'shebang-command': [ '2.0.0' ],
+56 silly audit   which: [ '2.0.2' ],
+56 silly audit   'shebang-regex': [ '3.0.0' ],
+56 silly audit   isexe: [ '2.0.0' ]
+56 silly audit }
+57 http cache shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz 0ms (cache hit)
+58 http cache isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz 0ms (cache hit)
+59 http cache cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz 0ms (cache hit)
+60 http cache @epic-web/invariant@https://registry.npmjs.org/@epic-web/invariant/-/invariant-1.0.0.tgz 0ms (cache hit)
+61 http cache cross-env@https://registry.npmjs.org/cross-env/-/cross-env-10.0.0.tgz 0ms (cache hit)
+62 http cache path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz 0ms (cache hit)
+63 http cache shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz 0ms (cache hit)
+64 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 0ms (cache hit)
+65 silly tarball no local data for shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz. Extracting by manifest.
+66 silly tarball no local data for isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz. Extracting by manifest.
+67 silly tarball no local data for cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz. Extracting by manifest.
+68 silly tarball no local data for @epic-web/invariant@https://registry.npmjs.org/@epic-web/invariant/-/invariant-1.0.0.tgz. Extracting by manifest.
+69 silly tarball no local data for cross-env@https://registry.npmjs.org/cross-env/-/cross-env-10.0.0.tgz. Extracting by manifest.
+70 silly tarball no local data for shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz. Extracting by manifest.
+71 silly tarball no local data for path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz. Extracting by manifest.
+72 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz. Extracting by manifest.
+73 http fetch GET 200 https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz 160ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz 160ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/cross-env/-/cross-env-10.0.0.tgz 331ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz 332ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 333ms (cache miss)
+78 http fetch GET 200 https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz 334ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz 355ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/@epic-web/invariant/-/invariant-1.0.0.tgz 448ms (cache miss)
+81 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 716ms
+82 silly audit report {}
+83 silly ADD node_modules/isexe
+84 silly ADD node_modules/shebang-regex
+85 silly ADD node_modules/which
+86 silly ADD node_modules/shebang-command
+87 silly ADD node_modules/path-key
+88 silly ADD node_modules/cross-spawn
+89 silly ADD node_modules/@epic-web/invariant
+90 silly ADD node_modules/cross-env
+91 verbose cwd /Users/muhammedshaikhzahidu/Desktop/new/cocopalms/ubs-backend
+92 verbose os Darwin 24.0.0
+93 verbose node v24.3.0
+94 verbose npm  v11.6.0
+95 verbose exit 0
+96 info ok
