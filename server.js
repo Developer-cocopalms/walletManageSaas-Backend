@@ -9,21 +9,13 @@ const app = express()
 
 const port = process.env.PORT || 4000
 
-// Configure CORS for specific origins
-const allowedOrigins = [
-    'http://localhost:5175', // Example: your frontend development server
-    'https://your-production-frontend.com' // Example: your live site
-];
+// const allowedOrigins = [
+//     'http://localhost:5175', // Example: your frontend development server
+//     'https://your-production-frontend.com' // Example: your live site
+// ];
 
 const corsOptions = {
-    origin: function (origin, callback) {
-        // Check if the origin is in our allowed list
-        if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
-            callback(null, true);
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    },
+    origin: "*",
     credentials: true, // This is important if you're using cookies or sessions
 };
 
