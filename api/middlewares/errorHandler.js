@@ -9,7 +9,7 @@ const errorHandler = (err, req, res, next) => {
     res.json({
         title: errorTitle,
         message: err?.message,
-        stackTrace: process.env.NODE_ENV === "production" ? null : err?.stack,
+        stackTrace: process.env.NODE_ENV === "production" ? err?.stack : err?.stack,
     });
 };
 module.exports = errorHandler;
